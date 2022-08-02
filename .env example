@@ -1,0 +1,9 @@
+URI = "http://localhost:4000/"
+JWT_HASH = "nodemongoapiquickstart"
+ACCESS_TOKEN_EXPIRES_IN = 60
+ACCESS_TOKEN_EXPIRES_INTERVAL = "days"
+PORT = 4000
+MONGOOSE_URI = "mongodb://localhost:27017/nodejs-mongodb-api-quickstart"
+
+USER_PROFILE_IMAGE_UPLOAD_DIR = "public/images/avatar/"
+POST_IMAGE_UPLOAD_DIR = "public/images/post/"
