@@ -1,10 +1,9 @@
 const _ = require('lodash')
 const { unlink } = require('fs')
 
-const http = require('@src/shared/helpers/http')
 const User = require('./userModel')
-const Controller = require('@src/shared/controllers/controller')
-const fileUploader = require('@src/shared/helpers/fileUploader')
+const { Controller } = require('@src/shared/controllers')
+const { http, fileUploader } = require('@src/shared/helpers')
 
 class UserController extends Controller {
     constructor() {
