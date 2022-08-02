@@ -1,7 +1,7 @@
-const http = require('../http')
-const User = require('../../core/user/userModel')
-const Token = require('../../core/token/tokenModel')
-const TokenController = require('../../core/token/tokenController')
+const http = require('@src/shared/helpers/http')
+const User = require('@src/core/user/userModel')
+const Token = require('@src/core/token/tokenModel')
+const TokenController = require('@src/core/token/tokenController')
 
 const register = async (req, res) => {
     try {

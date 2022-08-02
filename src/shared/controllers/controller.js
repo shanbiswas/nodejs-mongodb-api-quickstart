@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
-const { helper } = require('../index')
-const coreDirectory = '../../core/'
+const { helper } = require('../helpers/index')
+const coreDirectory = '@src/core/'
 
 class Controller {
     constructor(model) {

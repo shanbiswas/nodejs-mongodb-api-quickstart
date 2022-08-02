@@ -1,6 +1,6 @@
-const TokenController = require('../core/token/tokenController')
-const User = require('../core/user/userModel')
-const http = require('../shared/http')
+const TokenController = require('@src/core/token/tokenController')
+const User = require('@src/core/user/userModel')
+const http = require('@src/shared/helpers/http')
 
 const auth = async (req, res, next) => {
     try {

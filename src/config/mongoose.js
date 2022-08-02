@@ -1,6 +1,6 @@
 require('dotenv').config()
 const mongoose = require('mongoose')
-const http = require('@src/shared/http')
+const http = require('@src/shared/helpers/http')
 
 main().catch(err => {
   http.handleError({err})

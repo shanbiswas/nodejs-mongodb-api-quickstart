@@ -1,4 +1,4 @@
-const http = require('../shared/http')
+const http = require('./http')
 
 module.exports = {
     upload: function(file, uploadDir = '') {

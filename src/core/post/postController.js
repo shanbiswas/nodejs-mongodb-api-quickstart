@@ -2,10 +2,10 @@ const _ = require('lodash')
 const mongoose = require('mongoose')
 const { unlink } = require('fs')
 
-const http = require('@src/shared/http')
+const http = require('@src/shared/helpers/http')
 const Post = require('./postModel')
 const Controller = require('@src/shared/controllers/controller')
-const fileUploader = require('@src/shared/fileUploader')
+const fileUploader = require('@src/shared/helpers/fileUploader')
 
 class PostController extends Controller {
 
